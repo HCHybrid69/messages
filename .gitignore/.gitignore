@@ -1,0 +1,957 @@
+# Hoi! Ik ben Wouter, de maker van MinetopiaSDB.. De tekst die je hier leest is getyped door iemand die er geen euro voor vraagt. Daarom vragen we je om een donatie te doen via http://PayPal.me/MrWouter .
+NoPermission: '&cJij hebt geen permissie hiervoor.'
+Prefix: ''
+NoPlayer: '&cJij bent geen speler.'
+NooitOnline: '&cDeze speler is nooit online geweest!'
+NietOnline: '&cDeze speler is niet online!'
+DoodGaan: '&cJe bent dood gegaan, Je fitheid is voor de volgende 24 uur 20 lager'
+GenoegGedronken: '&cJe hebt genoeg gedronken, probeer het straks nog een keer'
+Water: '&eJe hebt water gedronken'
+Potion: '&eJe hebt een potion gedronken'
+GetalTeGroot: '&3Dit getal is te groot.'
+Loon: '&3Je hebt jouw standaardinkomen van &b<Bedrag> &3euro ontvangen!'
+Gebruik: '&3Gebruik &b/<Command> <Args>&3!'
+Regels: '&3Niet griefen %newline%&3Niet hacken %newline%&3Niet cheaten'
+NoSwear: '&f[&c&lMINETOPIA&f] &fSchelden is niet toegestaan'
+NoCaps: '&f[&c&lMINETOPIA&f] &fCaps uit'
+NoSpam: '&cWe konden jouw chat bericht niet versturen!'
+OngelezenBerichten: '&3Er zijn &b<Berichten> &3ongelezen berichten op &b06-<Nummer>.'
+GeenOngelezenBerichten: '&3Er zijn &bgeen &3ongelezen berichten op &b06-<Nummer>.'
+Telefoon:
+  Openbericht: '&3Je opent de telefoon met het telefoonnummer &b06-<Nummer>'
+  Lore: '&8=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-%newline%&8Telefoonnummer:
+    &706-<Nummer>%newline%&8Provider: &7<Provider>%newline%&8=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-='
+PrullenBakOpen: '&3Je hebt de prullenbak geopend.%newline%&4WAARSCHUWING: &cAlles
+  wat je hier in stopt, gaat voor ALTIJD weg.'
+PrullenBakTitel: '&4PRULLENBAK'
+PrullenBakCreative: '&3Prullenbakken kunnen &bniet &3geopend worden in gamemode &bCreative&3.'
+PlotInfo:
+  OP: '&3----------------------------------------%newline%&3Plot informatie van plot:
+    &b<Plot>%newline%&3Eigenaar: &b<Eigenaren>%newline%&3Leden: &b<Members>%newline%&3Flags:
+    &b<Flags>%newline%&3----------------------------------------'
+  GeenPlot: '&cJe bevindt je momenteel niet op een plot.'
+  GeenPlotMetNaam: '&cEr is geen plot met deze naam!'
+  PlotGeleegd: '&3Dit &bplot &3heeft nu &bgeen &3members en owners meer.'
+  Speler: '&3Eigenaar: &b<Eigenaren>%newline%&3Leden: &b<Leden>'
+  Geen: '&bGeen'
+  Komma: ', '
+  JeBentGeenEigenaar: '&cJe bent geen eigenaar van dit plot.'
+  AlleenStaffKan: '&cAlleen staff kan eigenaars van een plot aanpassen.'
+  Succesvol:
+    Owner: '&3Je hebt &b<Speler>&3 succesvol eigenaar gemaakt van dit plot.'
+    Member: '&3Je hebt &b<Speler>&3 succesvol member gemaakt van dit plot.'
+  Removed:
+    Owner: '&3Je hebt &b<Speler>&3 succesvol verwijderd van dit plot.'
+    Member: '&3Je hebt &b<Speler>&3 succesvol verwijderd van dit plot.'
+  Help:
+    NoPerm: '&4Ongeldige argumenten! Probeer:%newline%&c/plot addmember <gebruiker>%newline%&c/plot
+      removemember <gebruiker>'
+    Perm: '&4Ongeldige argumenten! Probeer:%newline%&c/plot addmember <gebruiker>%newline%&c/plot
+      removemember <gebruiker>%newline%&c/plot addowner <gebruiker>%newline%&c/plot
+      removeowner <gebruiker>%newline%&c/plot clear%newline%&c/plot list'
+  List:
+    Ingeladen: '&3De gegevens worden &bingeladen&3.'
+    Header: '&3Er zijn &b<Hoeveelheid> &3plots vrij.'
+    Info: '&b<Plotnummer> &3<Stad>'
+    Footer: '&3Pagina &b<Pagina>&3/&b<Paginas>&3.'
+Fitheid:
+  Vitamine: '&2Je hebt zojuist vitamine ingenomen! Je voelt je nu een stuk fitter!'
+  Drakenvlees: '&2Je hebt zojuist drakenvlees ingenomen! Je voelt je nu een stuk fitter!'
+  JeHebtAlEenBooster: '&cJe hebt al een booster actief! Wacht tot deze uitgewerkt
+    is.'
+  BenenGebroken: '&cAUW! Dat doet pijn! Je hebt je benen gebroken!'
+SDB:
+  GeenBedrijfsRekening: '&cJij &4hebt geen &cBedrijfs &4rekeningen!'
+  GeenSpaarRekening: '&cJij &4hebt geen &cSpaar &4rekeningen!'
+  Titel: '&3Totale waarde: &b<Euro> <Geld>'
+  Briefje: '&3Dit briefje heeft een %newline%&3waarde van &b<Euro> <Geld>&3.'
+  Muntje: '&3Dit muntje heeft een %newline%&3waarde van &b<Euro> <Geld>&3.'
+  BankselectorTitel: '&3Selecteer de rekening: '
+  BankselectorPrive: <Spelernaam>
+  BankselectorSpaar: <Spelernaam>
+  ItemLore: '&cOfficieel Minetopia bank biljet!'
+  Klik:
+    Gestort: '&3Je hebt &b<Bedrag> &3euro gestort naar de <Rekeningtype> van &b<Rekening>'
+    Opgenomen: '&3Je hebt &b<Euro> <Bedrag> &3opgenomen van de <Rekeningtype> van
+      <Rekening>.'
+    NietGenoegGeld: '&cEr is onvoldoende geld op deze rekening'
+  InventoryVol: '&cJouw &4inventaris &czit vol, hierdoor kan je &4geen&c geld opnemen.'
+  ValsGeld: '&4Je hebt vals geld bij je! We kunnen momenteel geen geld accepteren!'
+  Type:
+    Titel: '&3Selecteer het rekening type:'
+    Spaar: '&4Spaar Rekening'
+    Prive: '&6Privé rekening'
+    Bedrijf: '&3Bedrijfs rekening'
+    Overheid: '&2Overheids Rekening'
+Time: '&3Jouw huidige speeltijd is momenteel &b<Dagen> &3dagen, &b<Uren> &3uren, &b<Min>
+  &3minuten, &b<Sec> &3seconden.'
+TimeAndereSpeler: '&3<Speler> is momenteel &b<Dagen> &3dagen, &b<Uren> &3uren, &b<Min>
+  &3minuten, &b<Sec> &3seconden online geweest.'
+ScoreBoardAan: '&3Je hebt jouw scoreboard &baan &3gezet!'
+ScoreBoardUit: '&3Je hebt jouw scoreboard &buit &3gezet!'
+PvPIsUit: '&cPvP staat uitgeschakeld.'
+Head:
+  Succes: '&3Je hebt dit item op je hoofd gezet.'
+  GeenSucces: '&cDit kan je niet op je hoofd dragen.'
+  ActieSucces: '&3Je hebt succesvol deze actie voltooid.'
+Weer:
+  Voor: '&3Weerbericht voor &b<Stad>'
+  OpDitMoment: '&3Het is op dit moment &b<Temperatuur><Graden>C&3.'
+  Regen: '&3Het is aan het regenen!'
+  Droog: '&3Het is nu droog.'
+  KledingDroog: '&3Je kleren zijn op dit moment droog.'
+  KledingNat: '&3Je kleren zijn op dit moment nat.'
+Spy:
+  Aan: '&3Je hebt &b<Spy> &3aangezet.'
+  Uit: '&3Je hebt &b<Spy> &3uitgezet.'
+  Format:
+    Command: '&8[&7CommandSpy&8] &7<Speler>: <Command>'
+    Chat: '&8[&7ChatSpy&8] <Format>'
+  Disabled: '&4<Spy> &cis disabled.'
+PvPWhitelist:
+  Help: '   <WereldKleur>-=-=-=[<TegenWereldKleur>MinetopiaSDB<WereldKleur>]=-=-=-   %newline%<WereldKleur>/pw
+    <TegenWereldKleur>- Bekijk deze hulp pagina.%newline%<WereldKleur>/pw add <TegenWereldKleur>-
+    Voeg het item toe wat je nu in je hand hebt.%newline%<WereldKleur>/pw remove <TegenWereldKleur>-
+    Verwijder het item toe wat je nu in je hand hebt.%newline%<WereldKleur>/pw addspeler
+    <TegenWereldKleur>- Voeg de speler die je typed toe aan de PvPWhitelist.%newline%<WereldKleur>/pw
+    removespeler <TegenWereldKleur>- Verwijder de speler die je typed.%newline%<WereldKleur>/pw
+    togglespeler <TegenWereldKleur>- Enable/disable de speler pvp whitelist.'
+  Toegevoegd: '&3Het wapen <Wapen> is nu toegevoegd aan de PvPWhitelist.'
+  Verwijderd: '&3Het wapen <Wapen> is nu verwijderd van de PvPWhitelist.'
+  StaatNietOp: '&3Dit wapen staat niet op de PvPWhitelist'
+  StaatAlOp: '&3Dit wapen staat al op de PvPWhitelist'
+  SpelerWhitelist:
+    Aan: '&3De Speler PvPWhitelist staat nu aan.'
+    Uit: '&3De Speler PvPWhitelist staat nu uit.'
+    SpelerToegevoegd: '&3<Speler> is nu toegevoegd op de PlayerPvPWhitelist.'
+    SpelerVerwijderd: '&3<Speler> is nu verwijderd van de PlayerPvPWhitelist.'
+    StaatNietAan: '&3PlayerPvPWhitelist staat niet aan. Gebruik /pw togglespeler om
+      hem aan te zetten.'
+  JeMoetNogEvenWachten: '&4Je moet nog even wachten voor dat je jouw &cwapen &4weer
+    kan gebruiken!'
+  PVPWhitelistUitgeschakeld: '&4De PVPWhitelist is &cuitgeschakeld&4!'
+HandBoei:
+  Om: '&3Je hebt &bhandboeien &3omgedaan bij &b<Speler>&3.'
+  Af: '&3Je hebt de &bhandboeien &3van &b<Speler> &3afgedaan.'
+  Title1: '&3Politie'
+  Title2: '&3U bent gearresteerd.'
+  TeVerWeg: '&3Je bent te ver weg om &b<Speler> &3te handboeien. &b<Speler> &3is &b<Meter>
+    &3meter van je af.'
+  NietPVP: '&cJe hebt handboeien om en kan daarom niet &4slaan&c.'
+  DDGCopy: '&3In de &bconfig.yml&3 staat &bHandboei: DDGCopy: &3op true. Daardoor
+    kan je alleen maar spelers slaan, en werkt deze commando &bniet&3!'
+'112':
+  Bericht: '&c[&f112&c] [&f<World>, <X>, <Y>, <Z>&c] &7<Speler>: &f <Bericht>'
+  Cooldown: '&cJe moet nog even wachten voordat je de politie weer kan bellen.'
+SetCommand:
+  JeHebtDe: '&3Je hebt de &b<Data> &3van &b<Speler> &3verzet naar &b<Value>&3.'
+StaffChat:
+  Bericht: '&f[&2StaffChat&f] [<WereldKleur><Wereld>&f] &f<Speler>: &f<Bericht>'
+  Aan: '&3De staffchat staat nu &baan&3.'
+  Uit: '&3De staffchat staat nu &buit&3.'
+SpeedBoots:
+  TeHoog: '&3Kies een getal tussen de 1 en de 9'
+  Gekregen: '&3Je hebt &b<Boots>boots &3gekregen.'
+  Inventory: '&3Boots&bMenu'
+KleurSelector:
+  Geopend: '&2Je hebt het hoofdstad keuzemenu van &a<Speler> &2geopend.'
+  Lore: '&7Zet de kleur naar: &<Kleur>dit'
+  Naam: '&<Kleur><Kleurnaam>'
+  Aangepast: '&2Je hebt de kleur van <Speler> aangepast naar <Kleur>'
+LevelSelector:
+  Geopend: '&2Je hebt het level keuzemenu van &a<Speler> &2geopend.'
+  Lore: '&7Zet de Level naar: <Level>'
+  Naam: '&aLevel: <Level>'
+  Aangepast: '&2Je hebt het level van <Speler> aangepast naar <Level>'
+  Range:
+    Naam: '&8<Begin> &7- <Einde>&8.'
+    Lore: '&7Open het levelselector menu van &7level &8<Begin> &7tot level &8<Einde>&7.'
+ZoneSelector:
+  NietGebruikt: '&cZones staan &4uit &cin je config.'
+  Geopend: '&2Je hebt het Zone keuzemenu van &a<Speler> &2geopend.'
+  Lore: '&7Verander de zone naar: <Zone>'
+  Naam: '&aZone: <Zone>'
+  Aangepast: '&2Je hebt de zone van <Speler> aangepast naar <Zone>'
+AdminTool:
+  Titel: '&3Beheerscherm &b<Speler>'
+  Help: <WereldKleur>Gebruik <TegenWereldKleur>/admintool krijg <WereldKleur>om een
+    admintool te krijgen%newline%Gebruik <TegenWereldKleur>/admintool open <WereldKleur>om
+    je eigen admintool te openen%newline%Gebruik <TegenWereldKleur>/admintool open
+    <Speler> <WereldKleur>om iemand anders admintool te openen
+  Gekregen: '&6-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-%newline%&cJe hebt een Admin&5Tool &cingespawnd.%newline%&4Deze
+    kan alleen door staff gebruikt worden, niet delen met spelers.%newline%&6-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-'
+  Berichten:
+    Open:
+      Zelf: '&2Je hebt het menu voor jezelf geopend.'
+      Ander: '&2Je hebt het menu van &a<Speler> &2geopend.'
+  Item:
+    Naam: '&4Admin&cTool'
+    Lore: '&bLinkermuisknop &3om je eigen menu te openen%newline%%newline%&bRechtermuisknop&3
+      op een speler om zijn menu te openen.'
+  MTInfo:
+    Naam: '&6Minetopia Informatie'
+    Lore: '%newline%&3Klik &bhier &3om de &bMT-Info &3te openen.%newline%&f'
+  EnderChest:
+    Naam: '&6Enderchest'
+    Lore: '%newline%&3Klik &bhier &3om de &benderchest &3te openen.%newline%&f'
+    Open: '&2Je opent de Ender Chest van &a<Speler>&2.'
+  Inventory:
+    Naam: '&6Inventory'
+    Lore: '%newline%&3Klik &bhier &3om de &binventory &3te openen.%newline%&f'
+    Open: '&2Je opent de inventory van &a<Speler>&2.'
+  SpelersInfo:
+    ProfielInfo:
+      Naam: '&6Profielinformatie'
+      Lore: '&6-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-%newline%&9UUID: <UUID>%newline%&9Naam:
+        &<Kleur><Naam> %newline%&9Prefix: &8[&7<Prefix>&8]%newline%&9Online tijd:
+        &b<Dagen> &3 dagen, &b<Uren>&3 uur, &b<Min> &3 minuten en &b<Sec> &3 seconden%newline%&6-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-'
+    Hoofdstad:
+      Naam: '&6Hoofdstad'
+      Lore: '&9Hoofdstad: <Kleur>%newline%%newline%&9Klik op dit icoon%newline%&9om
+        de hoofdstad van deze speler aan te passen'
+    Level:
+      Naam: '&6Level'
+      Lore: '&9Level: <Level>%newline%%newline%&9Klik op dit icoon%newline%&9om het
+        level van deze speler aan te passen'
+    Fitheid:
+      Naam: '&6Fitheid'
+      Lore: '&9Fitheid: <Fitheid> / <MaxFit>%newline%%newline%&9Klik op dit icoon%newline%&9om
+        de fitheid van deze speler te bekijken'
+    Geld:
+      Naam: '&6Banksaldo'
+      Lore: '&9Banksaldo: <Euro> <Geld>%newline%%newline%&9Klik op dit icoon%newline%&9om
+        de bank van deze speler te openen'
+    Reset:
+      Naam: '&6Resetmenu'
+      Lore: '&9Klik op dit icoon%newline%&9om het resetmenu van deze speler te openen'
+    Zone: ''
+    Terug: '&7Terug'
+    OpenBericht: '&2Je bent doorgenavigeerd naar het Minetopia menu van &a<Speler>&2.'
+PlotWand:
+  Help: <TegenWereldKleur>/plotwand krijg - <WereldKleur>Krijg een plotwand%newline%<TegenWereldKleur>/plotwand
+    pos1 - <WereldKleur>Selecteer positie 1%newline%<TegenWereldKleur>/plotwand pos2
+    - <WereldKleur>Selecteer positie 2
+  NoPlotWand: '&cJe hebt geen plotwand.'
+  Succes: '&3Je hebt succesvol positie <Pos> geselecteerd.'
+  JeHebtAl: '&cJe hebt al een plotwand.'
+  Ontvangen: '&cJe hebt succesvol een plotwand ontvangen.'
+  Geselecteerd: '&3Positie <POS> geselecteerd.'
+Chat:
+  NiemandInDeBuurt: '&cEr is niemand in de buurt.'
+  ScheldAlert: '&f[&c&lMINETOPIA&f] <TegenWereldKleur><Speler> <WereldKleur>heeft
+    zojuist gescholden: <TegenWereldKleur><Bericht><WereldKleur>!'
+WereldCommand:
+  Help: <WereldKleur>-=-=-=[<TegenWereldKleur>MinetopiaSDB<WereldKleur>]=-=-=-%newline%<WereldKleur>/Wereld
+    list <TegenWereldKleur>- Krijg een speleraantal per wereld.%newline%<WereldKleur>/Wereld
+    togglestocks <Wereldnaam> <TegenWereldKleur>- Zet de stockmarket aan of uit voor
+    een wereld.%newline%<WereldKleur>/Wereld add <Wereldnaam> <TegenWereldKleur>-
+    Voeg een wereld toe aan de wereldlijst.%newline%<WereldKleur>/Wereld remove <Wereldnaam>
+    <TegenWereldKleur>- Verwijder een wereld van de wereldlijst.%newline%<WereldKleur>/Wereld
+    settemp <Wereldnaam> <Temperatuur> <TegenWereldKleur>- Verander de gemiddelde
+    temperatuur van een wereld.%newline%<WereldKleur>/Wereld setkleur <Wereldnaam>
+    <Kleur> <TegenWereldKleur>- Verander de kleur van een wereld (op het scoreboard).%newline%<WereldKleur>/Wereld
+    settitle <Wereldnaam> <Titel> <TegenWereldKleur>- Verander de titel van het scoreboard,
+    van een wereld.%newline%<WereldKleur>/Wereld setingeladen <Wereldnaam> <Stadnaam>
+    <TegenWereldKleur>- Pas de wereldnaam aan die je ziet als je inlogt.
+  List: '&3Spelersaantallen: '
+  List1: '&3<Wereld>: &b<Spelers>'
+  StaatAlOp: '&cDeze wereld staat al op de lijst'
+  SuccesToevoeg: '&3De wereld <Wereld> staat nu op de lijst!'
+  SuccesVerwijder: '&3De wereld <Wereld> staat nu niet meer op de lijst!'
+  StaatNietOpLijst: '&cDeze wereld staat niet op de lijst'
+  KiesEenGetal: '&cKies een getal, en geen letter!'
+  TemperatuurSucces: '&3De gemiddelde temperatuur is veranderd!'
+  TitelSucces: '&3De scoreboardtitel van &b<Wereld> &3is veranderd naar &b<Titel>&3.'
+  IngeladenSucces: '&3Het bericht wat je krijgt als je de wereld &b<Wereld> &3inkomt
+    is veranderd naar &b<Ingeladen>&3.'
+  KleurSucces: '&3De scoreboardkleur van &b<Wereld> &3is veranderd naar &b<Kleur>&3.'
+  WereldBestaatNiet: '&cDeze wereld bestaat niet!%newline%&cGeldige werelden: &4<Werelden>'
+  Stocks: '&3Stocks staan nu op &b<Waarde> &3in de wereld &b<Wereld>'
+Bereken:
+  Calculating: '&f[&c&lBerekenen&f] &7Calculating....'
+  Titel: '&f[&c&lBerekenen&f] &fKosten voor dit gebouw:'
+  Materiaal: '&f[&c&lBerekenen&f] &fPrijs gebouw: &c<Euro> <Prijs>'
+  Bouwers: '&f[&c&lBerekenen&f] &fBouwers kosten: &c<Euro> <Prijs>'
+  Totaal: '&f[&c&lBerekenen&f] &fTotale kosten: &c<Euro><Prijs>'
+  GeenPlotWand: '&cJe hebt geen plotwand selectie (/plotwand)'
+GrayCoin:
+  JijHebt: '&3Jij hebt op dit moment &b<Coins> &3graycoin(s).'
+  SpelerHeeft: '&3<Speler> heeft op dit moment &b<Coins> &3graycoin(s).'
+  Verwijderd: '&3Je hebt <Coins> GrayCoins verwijderd bij <Speler>.'
+  Toegevoegd: '&3Je hebt <Coins> GrayCoins toegevoegd bij <Speler>.'
+  Negatief: '&cJe kan geen negatief aantal graycoins hebben'
+  Help: <WereldKleur>Gebruik <TegenWereldKleur><Command> add <Speler> <Hoeveelheid>
+    <WereldKleur>om graycoins toe te voegen%newline%<WereldKleur>Gebruik <TegenWereldKleur><Command>
+    remove <Speler> <Hoeveelheid> <WereldKleur>om graycoins te verwijderen%newline%<WereldKleur>Gebruik
+    <TegenWereldKleur><Command> info <Speler> <WereldKleur>om graycoins van een andere
+    speler te bekijken
+  BedanktVoorUwAankoop: '&5Je hebt zojuist &d<Hoeveelheid> &5graycoins ontvangen!
+    Gefeliciteerd!'
+PrisonCoin:
+  JijHebt: '&3Jij hebt op dit moment &b<Coins> &3prisoncoin(s).'
+  SpelerHeeft: '&3<Speler> heeft op dit moment &b<Coins> &3prisoncoin(s).'
+  Verwijderd: '&3Je hebt <Coins> PrisonCoins verwijderd bij <Speler>.'
+  Toegevoegd: '&3Je hebt <Coins> PrisonCoins toegevoegd bij <Speler>.'
+  Negatief: '&cJe kan geen negatief aantal prisoncoins hebben'
+  Help: <WereldKleur>Gebruik <TegenWereldKleur><Command> add <Speler> <Hoeveelheid>
+    <WereldKleur>om PrisonCoins toe te voegen%newline%<WereldKleur>Gebruik <TegenWereldKleur><Command>
+    remove <Speler> <Hoeveelheid> <WereldKleur>om PrisonCoins te verwijderen%newline%<WereldKleur>Gebruik
+    <TegenWereldKleur><Command> info <Speler> <WereldKleur>om PrisonCoins van een
+    andere speler te bekijken
+IDBewijs: '&0&lIDBewijs%newline%&9===================%newline%&0&lSpeler:%newline%&0<Speler>%newline%&0&lWoonplaats:
+  %newline%&0<Woonplaats>%newline%&0&lDatum uitgave: %newline%&0<Datum>%newline%&0&lUitgever:%newline%&0<Uitgever>%newline%&9==================='
+KvK: '&0&lKamer van Koophandel%newline%&9===================%newline%&0&lBedrijf:%newline%&0<Bedrijf>%newline%&0&lEigenaar:
+  &0<Eigenaar>%newline%&0&lDatum uitgave: &0<Datum>%newline%&0&lUitgever:&0%newline%<Uitgever>%newline%&0&lCategorie:&0
+  <Categorie>%newline%&0&lKVKNummer:&0 %newline%<KVKNummer>%newline%&9==================='
+VOG:
+  Positief: '&2Positief'
+  Negatief: '&cNegatief'
+  Boekje: '&0&lMinist. van Just.:%newline%&0-------------------%newline%&9===================%newline%&0&lVOG
+    VERKLARING%newline%<Status>&9===================%newline%&0&lBurger:%newline%&0<Speler>%newline%&0&lDatum:
+    &0<Datum>%newline%&0&lGeldigheid:&0 4 weken.%newline%&9===================%newline%%newline%  &c©
+    &0&L<Uitgever>'
+Lening:
+  Help: <WereldKleur>/lening set <Speler> <Hoeveelheid> <TegenWereldKleur> - Geef
+    een speler een lening.%newline%<WereldKleur>/lening remove <Speler> <TegenWereldKleur>
+    - Verwijder een lening%newline%<WereldKleur>/lening deelbetaald <Speler> <Bedrag>
+    <TegenWereldKleur> - Betaal een deel van iemands lening af%newline%<WereldKleur>/lening
+    check <Speler> <TegenWereldKleur> - Bekijk iemands lening.%newline%<WereldKleur>/lening
+    list <TegenWereldKleur> - Krijg een lijst met alle leningen.
+  GeenLening: '&3Je hebt nog geen lening.'
+  WelLening: '&3Je hebt een lening van &b<Lening>&3.'
+  Check:
+    GeenLening: '&3<Speler> heeft nog geen lening.'
+    WelLening: '&3<Speler> heeft een lening van &b<Lening>&3.'
+  Set:
+    Succesvol: '&b<Speler> &3heeft nu een lening van <Euro> <Bedrag>.'
+  Remove:
+    Succesvol: '&b<Speler> &3heeft zijn lening van <Euro> <Bedrag> afbetaald.'
+  GeldOntvangen: '&3&lDeze persoon heeft dit bedrag op zijn priverekening ontvangen!'
+  GeldAfgenomen: '&3&lDit bedrag is van deze persoon zijn priverekening afgenomen!'
+  GeenNummer: '&cDat is geen getal!'
+  HijHeeftNietZoveel: '&b<Speler> &3heeft niet zo veel geleend. Zijn lening bedraagt
+    &b<Euro> <Bedrag> ,-&3.'
+  DeelBetaald: '&b<Speler> &3heeft &b<Euro> <Bedrag> &3van zijn lening afbetaald.
+    Het resterende bedrag is &b<Euro> <Resterend> &3afbetalen!'
+  SpelerIsTeSkeer: '&b<Speler> &3heeft &bniet &3genoeg geld!'
+  List:
+    Header: '&3Een moment geduld! Alle data word &bverzameld&3.'
+    User: '&3<Speler> &b- <Euro> <Geleend>&3,-'
+    Geen: '&3Er zijn op dit moment &bgeen&3 leningen.'
+WetboekGrondrecht: '&3Het wetboek kan je hier vinden: %newline%&b<Wetboek>'
+Setprovider:
+  Help: <WereldKleur>-=-=-=[<TegenWereldKleur>MinetopiaSDB<WereldKleur>]=-=-=-   %newline%<WereldKleur>/Provider
+    maak <Provider><TegenWereldKleur>- Maak een provider aan.%newline%<WereldKleur>/Provider
+    set <Speler> <Provider><TegenWereldKleur>- Verander de provider van een speler.%newline%<WereldKleur>/Provider
+    verwijder <Provider><TegenWereldKleur>- Verwijder een provider.%newline%<WereldKleur>/Provider
+    setkosten <Provider> <Kosten><TegenWereldKleur>- Verander de kosten van een SMS.%newline%<WereldKleur>/Provider
+    list <TegenWereldKleur>- Bekijk alle bestaande providers.
+  BestaatNiet: '&3Er is geen provider met deze naam.'
+  BestaatAl: '&3Er is al provider met deze naam.'
+  KostenSucces: '&3De kosten van de provider zijn succesvol gewijzigd.'
+  VerwijderdSucces: '&3Deze provider is succesvol verwijderd.'
+  AangemaaktSucces: '&3Deze provider is succesvol aangemaakt.'
+  SetSpelerSucces: '&3<Speler> zit nu bij <Provider>.'
+  List: '&b<Naam> &3Kosten: &b<Euro> <Kosten>,-. &3Gebruikersaantal: &b<Gebruikers>'
+FitheidTop:
+  Titel: '&3We zijn nu aan het kijken wie de hoogste fitheid heeft'
+  Boven: '&3Fitheid&bTop'
+  Format: '&3<Plek>: &b<Speler> Fitheid <Hoeveel>'
+  Onder: '&3----'
+PlotTop:
+  Titel: '&3We zijn nu aan het kijken wie de meeste plots heeft. Dit kan een aantal
+    minuten duren.'
+  Boven: '&3Plot&bTop'
+  Format: '&3<Plek>: &b<Speler> Plots <Hoeveel>'
+  Onder: '&3----'
+GrayCoinTop:
+  Titel: '&3We zijn nu aan het kijken wie de meeste GrayCoins heeft'
+  Boven: '&3GrayCoin&bTop'
+  Format: '&3<Plek>: &b<Speler> GrayCoin <Hoeveel>'
+  Onder: '&3----'
+LevelTop:
+  Titel: '&3We zijn nu aan het kijken wie het hoogste level heeft'
+  Boven: '&3Level&bTop'
+  Format: '&3<Plek>: &b<Speler> Level <Hoeveel>'
+  Onder: '&3----'
+TimeTop:
+  Titel: '&3We zijn nu aan het kijken wie de meeste onlinetijd heeft'
+  Boven: '&3Time&bTop'
+  Format: '&3<Plek>: &3<Speler> onlinetijd &b<Hoeveel>'
+  Onder: '&3----'
+PrisonCoinTop:
+  Titel: '&3We zijn nu aan het kijken wie de meeste PrisonCoins heeft'
+  Boven: '&3PrisonCoin&bTop'
+  Format: '&3<Plek>: &b<Speler> PrisonCoin <Hoeveel>'
+  Onder: '&3----'
+MoneyTop:
+  Titel: '&3We zijn nu aan het kijken wie het hoogste banksaldo heeft'
+  Boven: '&3Money&bTop'
+  Format: '&3<Plek>: &b<Speler> Money <Euro> <Hoeveel>'
+  Onder: '&3----'
+RekeningCMD:
+  Help: '%newline%   <WereldKleur>-=-=-=[<TegenWereldKleur>MinetopiaSDB<WereldKleur>]=-=-=-   %newline%<WereldKleur>/Rekening
+    maak - <TegenWereldKleur>Maak een rekening.%newline%<WereldKleur>/Rekening info
+    <ID> - <TegenWereldKleur>Bekijk info van een rekening.%newline%<WereldKleur>/Rekening
+    verwijder <ID> - <TegenWereldKleur>Verwijder een rekening.%newline%<WereldKleur>/Rekening
+    add <Speler> <ID> - <TegenWereldKleur>Voeg iemand toe aan een rekening.%newline%<WereldKleur>/Rekening
+    remove <Speler> <ID>- <TegenWereldKleur>Verwijder iemand van een rekening.%newline%<WereldKleur>/Rekening
+    setnaam <ID> <Naam> - <TegenWereldKleur>Verander een rekeningnaam.%newline%<WereldKleur>/rekening
+    list - <TegenWereldKleur>Krijg een lijst van alle rekeningen.%newline%<WereldKleur>/rekening
+    pay <ID> <Bedrag> - <TegenWereldKleur>Stort geld op een rekening.%newline%<WereldKleur>/rekening
+    open <ID> - <TegenWereldKleur>Open een rekening.'
+  NieuweRekening: '&3Er is een nieuwe rekening aangemaakt met het ID <ID>'
+  SpelerAlToegevoegd: '&cDe speler <Speler> was al toegevoegd aan de rekening met
+    het ID <ID>.'
+  SpelerToegevoegd: '&3De speler <Speler> is nu toegevoegd aan de rekening met het
+    ID <ID>.'
+  SpelerAlVerwijderd: '&3De speler <Speler> is geen gebruiker van de rekening met
+    het ID <ID>, en is daarom niet verwijderd'
+  SpelerVerwijderd: '&3De speler <Speler> is geen gebruiker meer van de rekening met
+    het ID <ID>.'
+  RekeningVerwijderd: '&3De rekening met het ID <ID> is verwijderd.'
+  GeenRekeningen: '&cEr zijn geen &crekeningen&c.'
+  RekeningBestaatNiet: '&3Er is geen rekening met dit ID.'
+  RekeningInfo:
+    Titel: '&3Rekeninginformatie van <ID>.'
+    Banksaldo: '&3Banksaldo <Euro> <Geld>,-.'
+    Gebruikers: '&3Gebruikers <Gebruikers>.'
+    NaamVeranderd: '&3Je hebt de naam van <ID> veranderd naar <Naam>.'
+  List: '&3Bestaande rekeningen: &b<Rekeningen>'
+  Succes: '&3Je hebt succesvol &b<Bedrag> &3overgemaakt naar &b<ID>&3.'
+OHRekeningCMD:
+  Help: '%newline%   <WereldKleur>-=-=-=[<TegenWereldKleur>MinetopiaSDB<WereldKleur>]=-=-=-   %newline%<WereldKleur>/OHRekening
+    maak - <TegenWereldKleur>Maak een overheidsrekening.%newline%<WereldKleur>/OHRekening
+    info <ID> - <TegenWereldKleur>Bekijk info van een overheidsrekening.%newline%<WereldKleur>/OHRekening
+    verwijder <ID> - <TegenWereldKleur>Verwijder een overheidsrekening.%newline%<WereldKleur>/OHRekening
+    add <Speler> <ID> - <TegenWereldKleur>Voeg iemand toe aan een overheidsrekening.%newline%<WereldKleur>/OHRekening
+    remove <Speler> <ID>- <TegenWereldKleur>Verwijder iemand van een overheidsrekening.%newline%<WereldKleur>/OHRekening
+    setnaam <ID> <Naam> - <TegenWereldKleur>Verander een overheidsrekeningnaam.%newline%<WereldKleur>/OHRekening
+    list - <TegenWereldKleur>Krijg een lijst van alle overheidsrekeningen.%newline%<WereldKleur>/OHRekening
+    pay <ID> <Bedrag> - <TegenWereldKleur>Stort geld op een overheidsrekening.%newline%<WereldKleur>/OHRekening
+    open <ID> - <TegenWereldKleur>Open een overheidsrekening.'
+  NieuweRekening: '&3Er is een nieuwe rekening aangemaakt met het ID <ID>'
+  SpelerAlToegevoegd: '&cDe speler <Speler> was al toegevoegd aan de overheidsrekening
+    met het ID <ID>.'
+  SpelerToegevoegd: '&3De speler <Speler> is nu toegevoegd aan de overheidsrekening
+    met het ID <ID>.'
+  SpelerAlVerwijderd: '&3De speler <Speler> is geen gebruiker van de overheidsrekening
+    met het ID <ID>, en is daarom niet verwijderd'
+  SpelerVerwijderd: '&3De speler <Speler> is geen gebruiker meer van de overheidsrekening
+    met het ID <ID>.'
+  RekeningVerwijderd: '&3De overheidsrekening met het ID <ID> is verwijderd.'
+  RekeningBestaatNiet: '&3Er is geen overheidsrekening met dit ID.'
+  RekeningInfo:
+    Titel: '&3Rekeninginformatie van <ID>.'
+    Banksaldo: '&3Banksaldo <Euro> <Geld>,-.'
+    Gebruikers: '&3Gebruikers <Gebruikers>.'
+    NaamVeranderd: '&3Je hebt de naam van <ID> veranderd naar <Naam>.'
+  List: '&3Bestaande rekeningen: &b<Rekeningen>'
+  Succes: '&3Je hebt succesvol &b<Bedrag> &3overgemaakt naar &b<ID>&3.'
+SDBCMD:
+  HelpCMD: '<WereldKleur>Deze server maakt gebruik van de gratis te downloaden plugin
+    <TegenWereldKleur>MinetopiaSDB<WereldKleur>, versie <TegenWereldKleur><Version><WereldKleur>.%newline%Downloadlink:
+    <TegenWereldKleur><URL><WereldKleur>!'
+  PermHelp: <WereldKleur>-=-=-=[<TegenWereldKleur>MinetopiaSDB<WereldKleur>]=-=-=-%newline%<WereldKleur>Voor
+    commandhulp <TegenWereldKleur>- /sdb help%newline%<WereldKleur>Reload MinetopiaSDB
+    <TegenWereldKleur>- /sdb reload%newline%<WereldKleur>Sla alle data op <TegenWereldKleur>-
+    /sdb saveall%newline%<WereldKleur>Bekijk de changelog <TegenWereldKleur>- /sdb
+    changelog <WereldKleur><cmd/functies/fixes>%newline%<WereldKleur>Reset een speler
+    <TegenWereldKleur>- /sdb reset <Speler>%newline%%newline%%newline%<WereldKleur>Je
+    maakt gebruik van versie <TegenWereldKleur><Version><WereldKleur>!
+  Updater:
+    WeetJeZeker: '&3Weet je zeker dat je &bMinetopiaSDB &3wilt updaten?%newline%&3Voor
+      deze update moet je server &bherstarten&3.%newline%&3Type &b/sdb ikweethetzeker&3!'
+    Start: '&3De &bupdate &3wordt gedownload!'
+    Succes: '&3De update is &bgeïnstalleerd &3en de update gaat installeren!'
+    Fail: '&cEr is iets &4fout &cgegaan. Installeer de update handmatig!%newline%&cCheck
+      de &4console &cvoor eventuele foutmeldingen!'
+    Geen: '&3Er zijn &bgeen &3updates beschikbaar!'
+    IsErEenUpdate: '&3We kijken even of er een &bupdate &3is!'
+    Kick: '&3We gaan even een &bupdate &3uitvoeren!'
+  Reload: '&3[&bMinetopiaSDB&3] &7MinetopiaSDB is herladen'
+  SaveAll: '&3[&bMinetopiaSDB&3] &7Alle data is opgeslagen'
+  Reset:
+    FitheidStatistics: '&3De statistics van <Speler> is gereset.'
+    FitheidBoosts: '&3De fitheidboosts van <Speler> is gereset.'
+    Fitheid: '&3De fitheid van <Speler> is gereset.'
+    FitheidMenu: '&3Het fitheidmenu van &b<Speler> &3is geopend.'
+    Plots: <WereldKleur>De <TegenWereldKleur>plots <WereldKleur>van <TegenWereldKleur><Speler>
+      <WereldKleur>zijn gereset.
+    Geld: <WereldKleur>Het <TegenWereldKleur>geld <WereldKleur>van <TegenWereldKleur><Speler>
+      <WereldKleur>is gereset.
+    Stocks: <WereldKleur>De <TegenWereldKleur>aandelen <WereldKleur>van <TegenWereldKleur><Speler>
+      <WereldKleur>is gereset.
+    Time: <WereldKleur>De <TegenWereldKleur>speeltijd <WereldKleur>van <TegenWereldKleur><Speler>
+      <WereldKleur>is gereset.
+    Kleur: <WereldKleur>De <TegenWereldKleur>kleur <WereldKleur>van <TegenWereldKleur><Speler>
+      <WereldKleur>is gereset.
+    Alles: <TegenWereldKleur>Alle data <WereldKleur>van <TegenWereldKleur><Speler>
+      <WereldKleur>is gereset.
+    Syntax: '&3Je kan op dit moment alleen geld, fitheid & alles resetten.'
+  ResetIedereen:
+    Help: '&4LET OP: &cDit werkt alleen vanuit de console.%newline%<WereldKleur>/sdb
+      ikwiliedereenresetten <TegenWereldKleur>Fitheid/Money/Stocks/Plots/Time/Kleur/Level/Alles'
+    BackupError: '&4ERROR: &cEr is iets mis gegaan toen de backup gemaakt werd. Reset
+      GEANNULEERD.'
+    BackupStart: '&3Er wordt een &bbackup &3gemaakt van de data.'
+    Succes: '&3Reset &bsuccesvol&3!'
+  GaTerug: '&9Klik hier om terug te gaan!'
+Teleporter:
+  NietGevonden: '&cDeze teleporter is &4niet &cgevonden.%newline%&cMeld dit aan een
+    &4stafflid&c!'
+  Bordje: '&f[&2T&aeleporter&f]'
+  KostenGeweizigd: '&3De kosten van deze &bstad &3zijn succesvol &baangepast&3!'
+  JeHebtNietGenoegGeld: '&cJe hebt niet genoeg geld op je &4priverekening&c staan
+    om deze &creis &4uit te voeren.'
+  KostenAfgenomenOmTeTeleporteren: '&3Er is &b<Bedrag> &3van je priveaccount afgehaald
+    om te reizen naar &b<StadHoofdletters>&3.'
+  WordVerstuurd: '&3Je wordt nu gestuurd naar &b<Stad>&3.'
+  LevelTeLaag: '&cJouw level is niet hoog genoeg voor toegang tot deze stad.%newline%&cAls
+    je denkt dat dit onjuist is, neem contact op met een staflid'
+  ZoneTeLaag: '&3Jouw &bZone &3is niet hoog genoeg voor de stad &b<Stad>'
+  Veranderd: '&3Je hebt het level van <Stad> verzet naar <Level>.'
+  GeenBordje: '&3Je kijkt niet naar een &bbordje.'
+  JeKijktNietNaarEenBordje: '&cJe kijkt niet naar een bordje!'
+  Help: '   <WereldKleur>-=-=-=[<TegenWereldKleur>MinetopiaSDB<WereldKleur>]=-=-=-   %newline%<WereldKleur>/Teleporter
+    - <TegenWereldKleur>Bekijk teleporter help.%newline%<WereldKleur>/Teleporter setspawn
+    <Stad>  - <TegenWereldKleur>Stel een stadspawn in.%newline%<WereldKleur>/Teleporter
+    set<LevelOfZone> <Stad> <LevelOfZone> - <TegenWereldKleur>Stel het <<LevelOfZone>>
+    van een stad in.%newline%<WereldKleur>/Teleporter warp <Stad> - <TegenWereldKleur>Warp
+    naar een stad.%newline%<WereldKleur>/Teleporter set <Stad> - <TegenWereldKleur>Verander
+    een bordje in een geldig teleporterbordje.%newline%<WereldKleur>/Teleporter list
+    - <TegenWereldKleur>Bekijk alle bestaande teleporters.%newline%<WereldKleur>/Teleporter
+    setkosten <Stad> <Kosten> - <TegenWereldKleur>Verander de kosten van een reis.%newline%<WereldKleur>/Teleporter
+    remove <Stad> - <TegenWereldKleur>Verwijder een teleporter.%newline%<WereldKleur>/Teleporter
+    togglemessage <Stad> - <TegenWereldKleur>Zet een message van een stad aan of uit.'
+  GeenBestaandeStad: '&3Er is &bgeen &3teleporter met die naam!'
+  List:
+    Header: '&3De bestaande teleporters:'
+    TP: '&3<Teleporter>: &b<Stad>'
+  SuccesVerwijderd: '&3De teleporter &b<Stad> &3is succesvol verwijderd!'
+  MessageToggled: '&3De message van de teleporter &b<Teleporter> &3staat nu &b<AanOfUit>&3.'
+  NietTeleporterenMetIllegaleItems: '&4ERROR: &cJe hebt &4illegale &citems bij je,
+    daarom mag je de teleporters &4niet &cgebruiken.'
+Title:
+  Regel1: <Wereldkleur>Welkom in
+  Regel2: <Wereldkleur><Wereld>
+IllegaleItems:
+  Gevonden: '&3<Speler> heeft &b<Hoeveelheid> &3illegale items bij zich, dat zijn
+    &b<Items>'
+  Geem: '&3<Speler> heeft &bgeen &3illegale items bij zich.'
+RegionCommand:
+  Help: <WereldKleur>-=-=-=[<TegenWereldKleur>MinetopiaSDB<WereldKleur>]=-=-=-%newline%<WereldKleur>/Stad
+    add <Stadnaam> <TegenWereldKleur>- Maak een stad aan zoals SunnyVille.%newline%<WereldKleur>/Stad
+    remove <Stadnaam> <TegenWereldKleur>- Verwijder een stad.%newline%<WereldKleur>/Stad
+    settemp <Stadnaam> <Temperatuur> <TegenWereldKleur>- Verander de gemiddelde temperatuur
+    van een stad.%newline%<WereldKleur>/Stad setkleur <Stadnaam> <Kleur> <TegenWereldKleur>-
+    Verander de kleur van een region (op het scoreboard).%newline%<WereldKleur>/Stad
+    settitle <Stadnaam> <Titel> <TegenWereldKleur>- Verander de titel van het scoreboard.
+  StaatAlOp: '&cDeze stad staat al op de lijst'
+  SuccesToevoeg: '&3De stad <Region> staat nu op de lijst!'
+  SuccesVerwijder: '&3De stad &b<Region> &3staat nu &bniet meer &3op de lijst!'
+  StaatNietOpLijst: '&cDeze stad staat &4niet &cop de lijst'
+  KiesEenGetal: '&cKies een getal, en geen letter!'
+  TemperatuurSucces: '&3De gemiddelde temperatuur is veranderd!'
+  TitelSucces: '&3De scoreboardtitel is veranderd!'
+  KleurSucces: '&3De scoreboardkleur is veranderd!'
+  RegionBestaatNiet: '&cDeze region bestaat niet!'
+  GeenPlotwandSelectie: '&3Je hebt geen &bPlotWand &3selectie.%newline%&3Krijg een
+    plotwand met &b/plotwand krijg&3.'
+PlotTP:
+  GeenPlot: '&cEr is geen plot in deze wereld met de naam <Naam>.'
+  Verstuurd: '&3Je wordt nu gestuurd naar &b<Plot>&3.'
+PlotCheck:
+  PlotInfo: '&3Plotinfo van: &b<Plot>%newline%&3Locatie: <X> / <Y> / <Z>%newline%&3Owners:
+    &b<Eigenaar>%newline%&3Members: &b<Members>'
+ChatKleur:
+  MenuTitle: '&3Kies jouw &bChatKleur&3!'
+  Help: <WereldKleur>-=-=[<TegenWereldKleur>MinetopiaSDB<WereldKleur>]=-=-%newline%<WereldKleur>/chatkleur
+    addall <Speler> <TegenWereldKleur>- Geef een speler toegang tot alle chatkleuren.%newline%<WereldKleur>/chatkleur
+    remove <Speler> <Kleur> <TegenWereldKleur>- Verwijder een chatkleur bij een speler.%newline%<WereldKleur>/chatkleur
+    add <Speler> <Kleur> <TegenWereldKleur>- Voeg een chatkleur toe bij een speler.%newline%<WereldKleur>/chatkleur
+    info <Speler> <TegenWereldKleur>- Bekijk de chatkleuren van een speler.
+  DieZitErNietIn: '&b<Speler> &3heeft de chatkleur &b<Kleur> &3nog niet!'
+  Removed: '&b<Speler> &3heeft nu geen toegang meer tot de chatkleur &b<Kleur> &3!'
+  Toegevoegd: '&b<Speler> &3heeft nu toegang tot de chatkleur &b<Kleur> &3!'
+  Geselecteerd: '&3Je hebt nu de chatkleur &<Kleurcode><Kleur>&3!'
+  AddAll: '&b<Speler> &3heeft nu toegang tot &balle&3 chatkleuren!'
+  Resetted: '&3De chatkleuren van &b<Speler> &3zijn nu gereset.'
+  HeeftChatkleuren: '&b<Speler>&3 heeft de chatkleuren <Kleuren> en heeft nu &b<Huidig>
+    &3geselecteerd!'
+RugZak:
+  WerktHetBeste: '&3&lLET OP! &3DDG texturepack aangeraden voor beste ervaring!'
+  MenuTitel: '&3Rugzakmenu'
+ArmorStand:
+  Title: '&3Verander de helm van een &bArmorStand'
+  Ja: '&3Verander de armorstands helm naar &b<Material>'
+  Nee: '&cNee, ik wil dat niet!'
+Unbreakable:
+  NietsInHand: '&3Je hebt geen &bItem &3in je hand!'
+  Done:
+    Unbreakable: '&3Jouw item is nu &bunbreakable &3!'
+    NotUnbreakable: '&3Jouw item is nu niet meer &bunbreakable &3!'
+  GeenSpigot: '&3Hiervoor heb je &bSpigot 1.8&3 of hoger voor nodig. &bCraftbukkit
+    &3word niet ondersteund!'
+Glow:
+  Done:
+    Glowing: '&3Jouw item heeft nu een &benchant-effect&3!'
+    NotGlowing: '&3Jouw item heeft nu niet meer &benchanteffect&3!'
+SpaarRekening:
+  Aan: '&b<Speler> &3heeft nu een &bspaarrekening&3!'
+  Uit: '&b<Speler> &3heeft nu geen &bspaarrekening&3 meer!'
+  Help: '<WereldKleur>-=-=[<TegenWereldKleur>MinetopiaSDB<WereldKleur>]=-=-%newline%<WereldKleur>/spaarrekening
+    toggle <Speler> <TegenWereldKleur>- Zet een spaarrekening van een speler aan of
+    uit%newline%<WereldKleur>/spaarrekening info <Speler> <TegenWereldKleur>- Bekijk
+    info van een spelers spaarrekening. '
+  Info: '&3De spaarrekening van &b<Speler> &3heeft &b<Euro> <Bedrag>&3!'
+PinCMD:
+  Help: '&3&m-----------------&7[&bMinetopia&7]&3&m-----------------%newline%&3/&bpin
+    set <Speler> <Bedrag>&3- &bStart een betaalverzoek%newline%&3&m-----------------&7[&bMinetopia&7]&3&m-----------------'
+  GeldigGetal: '&cGelieve een geldig getal in te vullen!'
+  OnlineSpeler: '&4Gelieve een online speler in te voeren!'
+  Bedrijfsrekening: '&4Je moet minimaal 1 bedrijfs rekening hebben om dit commando'
+  Aangemaakt: '&3Klik op een pin automaat om het betaalverzoek te versturen%newline%&3Typ
+    &bannuleer&3 om de actie te annuleren'
+  Verstuurd: '&3Je hebt een betaalverzoek van &b<Bedrag> &3euro verstuurd naar &b<Speler>'
+  BetalingVoltooid: '&3De betaling van &b<Bedrag> &3is voltooid!'
+  Geannuleerd: '&3De huidige actie is geannuleerd.'
+  TargetAangemaakt: '&3Je hebt een betaalverzoek van &b<Bedrag> &3euro van &b<Speler>
+    &3ontvangen%newline%&3Dit verzoek kan je betalen via jouw pinpas op de pinconsole!%newline%&3Het
+    verzoek verloopt over &b20 &3seconden!'
+  VerzoekVerlopen: '&3Dit pinverzoek is verlopen.'
+  NogAccepteren: '&3Typ &baccept &3om de betaling van <Bedrag> &3te betalen!%newline%&3Typ
+    &bannuleren &3om de betaling te annuleren'
+  JeHebtMeerRekeningen: '&3Je hebt meer dan &b1 &3rekening. %newline%&3Je kan kiezen
+    uit de volgende rekeningen: &b<Rekeningen>%newline%&3Type jouw rekening in de
+    chat.'
+  GeenGeldigeRekeningen: '&cJij hebt geen rekening met die naam!'
+  InRekChatNoOptions: '&cJe bent momenteel in &4rekeningchat&c. Type &4annuleer &cof
+    &4accept&c.'
+  Bevroren: '&cDe rekening van &4<Speler> &3is bevroren.'
+GeenPermissie:
+  TimeInfo: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  vog: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  prullenbak: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  setprefix: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  provider: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  chatspy: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  setfitheid: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  rekening: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  beltegoed: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  setrank: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  setlevel: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  setzone: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  teleporter: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  kleur: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  openbank: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  plotwand: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  padd: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  subplot: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  delplot: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  plottp: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  plotcheck: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  wereld: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  pw: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  kvk: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  '112': '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  plots: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  staffchat: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  boots: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  idbewijs: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  handboei: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  getfitheid: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  commandspy: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  fitheiditems: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  admintool: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  bereken: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  moneytop: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  leveltop: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  fitheidtop: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  addfitheid: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  telefoon: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  stad: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  rugzak: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  unbreakable: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  spaarrekening: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  vergunning: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  plottop: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  realmoney: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  plotbewijs: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  verkiezing: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  ddgitems: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  wapen: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  fouilleer: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  rijbewijs: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  ohrekening: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  setlevelkleur: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  glow: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  particlekleding: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  lootcrate: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  timetop: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  stockmarket: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  openrugzak: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  chargetaser: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  kleding: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  boete: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  bon: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  mtinfo: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  freezerekening: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  levelcheck: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  strafblad: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  plotclear: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  plotbereken: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+  rekeningpay: '&5&lD &cError: &fJe hebt geen toegang tot dit command.'
+Vergunning: '&0&l<Soort>-vergunning%newline%&9===================%newline%&0&lPlot:
+  &0<PlotNummer>%newline%%newline%&0&lDatum uitgave: &0<Datum>%newline%%newline%&0&lSoort
+  vergunning: %newline%&0<Soort>-vergunning%newline%%newline%&0&lUitgever: &0<Uitgever>%newline%%newline%&0&lSpeler:
+  &0<Speler>%newline%%newline%&o © <Uitgever>&9==================='
+RealMoney:
+  NepGeldStaatUit: '&3NepGeld staat uit. Je kan het aanzetten met &b/realmoney togglevalsgeld&3!'
+  Succes: '&3Je hebt succesvol &b<Euro> <Bedrag> &3aan ''echt'' geld gekregen.'
+  ValsGeldToggled: '&3Vals geld staat nu &b<Status>&3!'
+Verkiezingen:
+  JeHebtAlGestemd: '&4Jij hebt al op een van de kandidaten gestemd!'
+  Help: <WereldKleur>-=-=-=[<TegenWereldKleur>MinetopiaSDB<WereldKleur>]=-=-=-=-%newline%<TegenWereldKleur>/verkiezing
+    npc <WereldKleur>- Spawn een verkiezingsNPC.%newline%<TegenWereldKleur>/verkiezing
+    list <WereldKleur>- Bekijk alle verkiesbare spelers.%newline%<TegenWereldKleur>/verkiezing
+    add <Player> <Partij_met_underscores> <WereldKleur>- Stel een speler verkiesbaar.%newline%<TegenWereldKleur>/verkiezing
+    remove <Player> <WereldKleur>- Maak een speler onverkiesbaar. %newline%<TegenWereldKleur>/verkiezing
+    getvotes <Player> <WereldKleur>- Kijk hoeveel stemmen iemand heeft.%newline%<TegenWereldKleur>/verkiezing
+    stop <WereldKleur>- Reset alle stemmen en bekijk wie de winnaar is.
+  IsNuVerkiesbaar: '&3De speler &b<Speler> (<Partij>) &3is nu verkiesbaar.'
+  SpelerHeeftStemmen: '&b<Speler>&3 heeft &b<Stemmen> &3stemmen.'
+  IsNietMeerVerkiesbaar: '&3De speler &b<Speler> &3is nu niet meer verkiesbaar.'
+  DeWinnaarIs: '&3De verkiezingen zijn &bafgelopen.%newline%&3De winnaar van de verkiezingen
+    is &b<Speler>&3.%newline%&3Alleen jij ziet dit bericht!'
+  IsNietVerkiesbaar: '&3De speler &b<Speler>&3 is niet verkiesbaar.'
+  InventoryTitle: Stem
+  InvName: <Speler>
+  InvLore: <Partij>
+  JeHebtGestemdOp: '&3Je hebt gestemd op &b<Player>&3.'
+  GeenKandidaten: '&3Er zijn &bgeen &3kandidaten.'
+  KandidatenList: '&3<Speler> (&b<Stemmen> stemmen&3)'
+  NiemandVerkiesbaar: '&4ERROR: &cOp dit moment is er niemand om op te stemmen.'
+  NPC:
+    SkinUUID: 836ce767-0e25-45a0-8012-fa1864d2b6aa
+    PlayerName: '&6Verkiezingen'
+    Succes: '&3Succesvol een &bverkiezings NPC &3gespawned!'
+DDGItems:
+  MenuTitle: '&3DDGItems'
+SneeuwBallen:
+  Disabled: '&cSneeuwballen gooien is op dit moment uitgeschakeld.'
+DrankCMD:
+  Lore: Officieel Minetopia Product Geniet, maar drink met mate!
+WapenCMD:
+  Lore: Officiëel wapen.
+  Title: WapenMenu
+Fouileer:
+  NietInRadius: '&3Je bent te ver weg van &b<Speler> &3om hem te fouilleren.'
+  JeKanJezelfNietFouilleren: '&cJe kan jezelf niet fouilleren!'
+Openrugzak:
+  NietInRadius: '&3Je bent te ver weg van &b<Speler> &3om zijn rugzak te openen.'
+  JeKanJezelfNietFouilleren: '&cJe kan jouw eigen rugzak niet openen!'
+Rijbewijs: '&0&lRijbewijs%newline%&9===================%newline%&0&lSpeler:%newline%&0<Speler>%newline%&0&lStad:
+  %newline%&0<Stad>%newline%&0&lDatum uitgave: &0<Datum>%newline%&0&lVoertuig:&0%newline%<Voertuig>%newline%&9==================='
+ScoreBoardStaatUitInConfig: '&3Het MinetopiaSDB scoreboard staat &buit&3.'
+FitheidReset:
+  TargetAlActieve: '&c<Speler> &4heeft momenteel al een actieve reset staan.'
+  ResetActive: '&b<Speler>&3 heeft nu een fitheidreset.'
+  ResetDeactive: '&b<Speler>&3 heeft nu geen fitheidreset meer.'
+  TargetGeenActieve: '&c<Speler> &4heeft momenteel geen actieve reset staan.'
+  Deactieve: '&3Jij hebt nu geen fitheidreset meer.'
+  GeenActieve: '&4Jij hebt momenteel geen actieve reset staan.'
+  Help: '&3&m-----------------&7[&bMinetopia&7]&3&m-----------------%newline%&3/&bfitheidreset
+    enable <Speler> &3- &bEnable een reset%newline%&3/&bfitheidreset disable <Speler>
+    &3- &bDisable een reset%newline%&3&m-----------------&7[&bMinetopia&7]&3&m-----------------'
+  Succes: '&3Jouw fitheid is nu gereset.'
+  JeHebtNogEenActieve: '&3Je hebt nog een fitheidreset actief staan.%newline%&3Gebruik
+    &b/IkweetHetZekerIkWilVanMijnFitheidAf &3om je reset te gebruiken.%newline%&3of
+    gebruik &b/FitHeidReset uit &3om dit bericht uit te zetten.'
+LootcrateCMD:
+  Help: <WereldKleur>-=-=-=[<TegenWereldKleur>MinetopiaSDB<WereldKleur>]=-=-=-=-%newline%<TegenWereldKleur>/lootcrate
+    items <normal/epic/legend> <WereldKleur>- Voeg items toe / verwijder items in
+    lootcrates.%newline%<TegenWereldKleur>/lootcrate krijg <normal/epic/legend> <hoeveelheid
+    items> <WereldKleur>- Krijg een lootcrate
+  Unknown: '&3Onbekend &bLootCrate &3type. Gebruik &bnormal&3, &bepic &3of &blegend&3.'
+  Gekregen: '&3Je hebt een &bLootCrate &3gekregen.'
+  TeWeinig: '&3Er zijn te weinig &bLootCrates &3van deze soort.'
+ParticleCMD:
+  GeenArmor: '&3Je hebt geen &barmor &3in je hand.'
+  Opened: '&3Je hebt jouw ParticleMenu geopend'
+  GeenArmorMetEnchants: '&3Je hebt geen &barmor &3met &benchants&3 in je hand.'
+  Help: <WereldKleur>/particle add <TegenWereldKleur>- Voeg een particle toe aan een
+    kledingstuk.%newline%<WereldKleur>/particle remove <TegenWereldKleur>- Verwijder
+    een particle bij aan een kledingstuk
+StockmarketCMD:
+  StaatNietAan: '&cDe stockmarket staat niet aan in deze wereld.'
+  Help: <WereldKleur>/stockmarket waarden <Wereld> - <TegenWereldKleur>Bekijk de waardes
+    van de stockmarket.%newline%<WereldKleur>/stockmarket setwaarden <Wereld> - <TegenWereldKleur>Pas
+    de waardes van de stockmarket aan.
+  Waarden:
+    Header: '&3Stockmarket informatie &b<Wereld>.'
+    Info: '&3<Sectie>: &b<Euro> <Bedrag>.'
+  Setwaarden:
+    GeenGeldigeSection: '&cEr is geen section met deze naam.%newline%&cVoor een lijst
+      met sections, type &4/stockmarket waarden&c!'
+  WaardenMenu: Stockmarket waardemenu
+  TypeDeWaarde: '&3Type nu in de &bchat &3de waarde van deze aandeel.'
+  Aangepast: '&3De waarde van &b<Section> &3is aangepast naar &b<Waarde>&3.'
+PlotBereken:
+  Header: '&3De prijzen van dit plot worden nu &bberekend&3.'
+  Kosten: '&3Dit plot kost &b<Euro> <Bedrag>&3.'
+  GebouwKosten: '&3Dit gebouw kost &b<Euro> <Bouwbedrag>&3.'
+  BouwersKosten: '&3De bouwerskosten zijn &b<Euro> <Bouwerskosten>&3.'
+Taser:
+  Leeg: '&cJouw taser is &4leeg&c! Laad hem op!'
+  GeenTaser: '&3Jij hebt geen &btaser &3in jouw &bhand&3!'
+  TaserOpgeladen: '&3Jouw &btaser &3is &bopgeladen&3!'
+FitheidItems:
+  Title: '&3Fitheid&bItems'
+ResourcePack:
+  Deny: '&4<PlayerSpeler>&c, je moet de resourcepack accepteren!'
+InfoCMD:
+  Header: '&3Spelersinformatie van &b<Speler>&3.'
+  Info: '&3<Path>&b: <Value>'
+Setlevel:
+  TeHoog: '&3Kies een getal tussen &b0&3 en &b<Max>&3!'
+FreezeRekening:
+  Prive:
+    Frozen: '&3De priverekening van &b<Speler> &3is nu bevroren.'
+    Unfrozen: '&3De priverekening van &b<Speler> &3is nu niet meer bevroren.'
+  Spaar:
+    Frozen: '&3De spaarrekening van &b<Speler> &3is nu bevroren.'
+    Unfrozen: '&3De spaarrekening van &b<Speler> &3is nu niet meer bevroren.'
+  Bedrijf:
+    Frozen: '&3De bedrijfsrekening met het ID &b<ID> &3is nu bevroren.'
+    Unfrozen: '&3De bedrijfsrekening met het ID &b<ID> &3is nu niet meer bevroren.'
+  Overheid:
+    Frozen: '&3De overheidsrekening met het ID &b<ID> &3is nu bevroren.'
+    Unfrozen: '&3De overheidsrekening met het ID &b<ID> &3is nu niet meer bevroren.'
+  IsBevroren: '&cDeze rekening is &4bevroren&c.'
+TelefoonCMD:
+  List:
+    Value: '&b06-<Nummer> &3- <Speler>'
+  Help: <WereldKleur>-=-=-=[<TegenWereldKleur>MinetopiaSDB<WereldKleur>]=-=-=-%newline%<WereldKleur>/telefoon
+    list <TegenWereldKleur>- Bekijk alle bestaande telefoonnummers.%newline%<WereldKleur>/telefoon
+    set <Speler> <Nummer> <TegenWereldKleur>- Verander iemand zijn telefoonnummer.%newline%<WereldKleur>/telefoon
+    open <Nummer> <TegenWereldKleur>- Open iemands telefoon.%newline%<WereldKleur>/provider
+    <TegenWereldKleur>- Je moet een provider hebben om berichten te versturen.%newline%<WereldKleur>/beltegoed
+    <TegenWereldKleur>- Beltegoed is nodig om berichten te versturen.%newline%
+  BestaatNiet: '&3Dit &btelefoonnummer &3bestaat niet.'
+  TelefoonsDisabled: '&3Telefoons zijn &buitgeschakeld &3in de config.'
+LevelCheckerCMD:
+  HoeSamengesteld: '&3Levelcheck report voor &b<Speler>&3%newline%&3Het &blevel &3is
+    samengesteld uit: %newline%&3Je hebt &b<Punten> &3punten nodig voor een &blevel-up&3!%newline%&b<Speler>
+    &3heeft &b<Plots> &3plot(s), en heeft daarmee &b<PlotPunten> punten &3verdient.%newline%&b<Speler>
+    &3heeft &b<Bedrag> &3euro, en heeft daarmee &b<GeldPunten> punten &3verdient.%newline%&b<Speler>
+    &3heeft fitheid &b<Fitheid>&3, en heeft daarmee &b<FitheidPunten> punten &3verdient.%newline%&b<Speler>
+    &3heeft &b<Voertuigen> &3voertuigen, en heeft daarmee &b<VoertuigPunten> punten
+    &3verdient.%newline%&b<Speler> &3heeft &b<TimeUren> &3 uren onlinetijd, en heeft
+    daarmee &b<TimeUrenPunten> punten &3verdient.%newline%&b<Speler> &3heeft de baan
+    &b<Baan>&3, en heeft daarmee &b<BaanPunten> punten &3verdient.%newline%%newline%&3Het
+    level voor &b<Speler>&3 is &b<Level>&3.'
+LevelCheckCMD:
+  NeedsCitizen: '&cJe hebt &4Citizens &cnodig voor deze functie!%newline%&cJe kan
+    &4Citizens &chier kopen: https://www.spigotmc.org/resources/citizens.13811/%newline%&cOf
+    je kan &4Citizens &chier: http://minetopiasdb.nl/Citizens.html gratis (en legaal!)
+    downloaden.'
+  VillagerName: '&6LevelCheck'
+  NPCSkinUUID: 11ccf559-f7c4-404c-8ba3-dcaf70c94b30
+  Succesvol: '&3Deze &bNPC &3is succesvol gespawned.'
+  Messages:
+    Akkoord:
+      Naam: '&aAkkoord'
+      Lore: '%newline%&2Klik hier om je level te upgraden naar &aLevel <Level>&2!%newline%&2Deze
+        upgrade is &a<Kosten>'
+      Gratis: gratis
+    Annuleer:
+      Naam: '&cAnnuleren'
+      Lore: '%newline%&4Klik om deze actie te &cannuleren&4.'
+    NietVoorzienVanHogerLevel: '%newline%&4Welkom &c<Speler>&4! Op dit moment kan
+      ik jou &cniet &4voorzien van een hoger level. Je kan jouw potentiële level zien
+      in het scoreboard naast jouw huidige level.'
+    NietGenoegGeld: '&4Je hebt &cniet &4genoeg geld om levelup te gaan.'
+    MenuTitel: '&3Levelcheck'
+    Succes: <WereldKleur>Je bent succesvol naar <TegenWereldKleur>level <Level><WereldKleur>
+      gegaan!
+KledingCMD:
+  MenuTitel: '&3Kleding&bMenu'
+  GeenKleur: '&cDit is geen geldige kleurcode.'
+  Verander: '&3Verander de &b<Verander>&3.'
+  Naam: '&3Type de &bnaam &3in de chat.'
+  Lore: '&3Type de &blore &3in de chat.'
+ActionBar:
+  Format: '&5 Datum: &f<Datum>        &5Temp:&f <Temperatuur><Graden>C'
+PlotsCMD:
+  Verzamelen: '&3We zijn alle data aan het &bverzamelen&3.'
+  InTotaal: '&b<Speler> &3is eigenaar op &b<EigenaarPlots> plots &3en member op &b<MemberPlots>
+    plots&3.'
+  GeenEigenaarPlots: '&b<Speler> &3 is op &bgeen &3plots eigenaar.'
+  GeenMemberPlots: '&b<Speler> &3 is op &bgeen &3plots member.'
+  Format:
+    GeenStad: '&3Plot &b<Plot> &3Stad &b<Wereld>'
+    Stad: '&3Plot &b<Plot> &3Stad &b<Stad> &3(&b<Wereld>&3)'
+  Eigenaar: '%newline%&3Plots waar &b<Speler> &3eigenaar is:'
+  Member: '%newline%&3Plots waar &b<Speler> &3member is:'
+DeathBan:
+  Bericht: '&cHelaas! Je bent &4dood&c gegaan! Wacht nog &4<TijdOver> minuten &cen
+    kom weer tot leven.'
+LuckyShards:
+  AutomatischOntvangen: '&3Je hebt automatisch &5<Shards> &3Specialcoins gekregen!'
+  JijHebt: '&3Jij hebt op dit moment &5<Coins> &3Specialcoins.'
+  SpelerHeeft: '&5<Speler> &3heeft op dit moment &5<Coins> &3Specialcoins.'
+  Verwijderd: '&3Je hebt &5<Coins> &3Specialcoins verwijderd bij &5<Speler>.'
+  Toegevoegd: '&3Je hebt &5<Coins> &3Specialcoinstoegevoegd bij &5<Speler>.'
+  Negatief: '&4ERROR: &cJe kan geen negatief aantal Specialcoins hebben'
+  Help: <WereldKleur>Gebruik <TegenWereldKleur><Command> add <Speler> <Hoeveelheid>
+    <WereldKleur>om shards toe te voegen%newline%<WereldKleur>Gebruik <TegenWereldKleur><Command>
+    remove <Speler> <Hoeveelheid> <WereldKleur>om shards te verwijderen%newline%<WereldKleur>Gebruik
+    <TegenWereldKleur><Command> info <Speler> <WereldKleur>om shards van een andere
+    speler te bekijken
+  GoodybagGeopend: '&3Je hebt je Goody Bag geopend!'
+  InventoryVol: '&4ERROR: &cJouw inventaris zit vol, hierdoor kan je geen goodybag
+    openen.'
+  Inventory:
+    Title: '&6Lucky Vending Machine'
+    Weigeren: '&cWeigeren'
+    GoodyBag:
+      Naam: '&6&lLucky Goody Bag'
+      Lore: 'ID: <ID>%newline%Officieel Minetopia Item%newline%Speciaal Item'
+    TransactieGeweigerd: '&cJe hebt de transactie geweigerd.'
+    TeWeinigShards: '&4ERROR: &cJe hebt hier 1 Lucky Shard voor nodig.'
+    GoodyBagGekregen: '&3Je hebt een Goody Bag gekregen, wat zal er in zitten?'
+  Boosters:
+    Inventory:
+      Title: '&3Lucky&bBoosters'
+      ActieveBoosters:
+        Naam: '&3Bekijk de &bactieve &3boosters'
+        Lore: '&3Huidige boost: &b<BoostPercentage>%'
+        Booster: '&3--------------%newline%&3Booster: (&b<Percentage>%&3)%newline%&3Eigenaar:
+          &b<Speler>%newline%&3Tijd over: &b<TimeLeft> minuten%newline%&3--------------'
+      JouwBoosters:
+        Naam: '&3Gebruik jouw &bBoosters'
+        Lore: '&3Lucky&bBoosters &3(&b<Boosters>&3)'
+      ActieveBooster:
+        GeenBoosters: '&4ERROR: &cEr zijn huidig geen actieve boosters.'
+    Command:
+      Help: '   <WereldKleur>-=-=-=[<TegenWereldKleur>MinetopiaSDB<WereldKleur>]=-=-=-   %newline%<WereldKleur>/booster
+        openmenu <TegenWereldKleur>- Open het luckyshard menu.%newline%<WereldKleur>/booster
+        add <Speler> <Percentage> <TegenWereldKleur>- Geef een speler een booster.%newline%<WereldKleur>/booster
+        remove <Speler> <Percentage> <TegenWereldKleur>- Verwijder een booster van
+        een speler.'
+  Booster:
+    Command:
+      HeeftNietDieBooster: '&4<Speler> &cheeft geen booster van &4<Percentage>&c%!'
+      Verwijderd: '&b<Speler> &3heeft nu geen booster meer van &b<Percentage>&3%!'
+      Toegevoegd: '&b<Speler> &3heeft nu een booster van &b<Percentage>&3%!'
+  Disabled: '&4ERROR: &cLuckyShards staan uit.'
+PlotBewijs: '&0&lPlot <Plotnummer> (<Stad>)%newline%&9===================%newline%&0&lPlotnummer:%newline%&0<Plotnummer>%newline%&0&lEigenaar:
+  &0<Speler>%newline%&0&lDatum uitgave: &0<Datum>%newline%&0&lUitgever:&0%newline%<Stad>%newline%%newline%&9===================%newline%&0
+  © Gemeente <Stad>'
+Boete: '&0&lBoete <Speler> (<Euro> <Bedrag>)%newline%&9===================%newline%&0&lSpeler:%newline%&0<Speler>%newline%&0&lBedrag:
+  &0<Bedrag>%newline%&0&lDatum uitgave: &0<Datum>%newline%&0&lReden:&0 <Reden>%newline%%newline%&9===================%newline%&0
+  © <Uitgever>'
+Bon: '&0&lBonnetje <Speler> (<Euro> <Bedrag>)%newline%&9===================%newline%&0&lSpeler:%newline%&0<Speler>%newline%%newline%&0&lAankoopdatum:
+  &0<Datum>%newline%%newline%&0&lBedrijf: &0<Bedrijf>%newline%%newline%&0&lBedrag:&0
+  <Euro><Bedrag>%newline%&9===================%newline%&0 © <Bedrijf>'
