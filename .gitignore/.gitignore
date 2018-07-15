@@ -12,8 +12,8 @@ GetalTeGroot: '&3Dit getal is te groot.'
 Loon: '&3Je hebt jouw standaardinkomen van &b<Bedrag> &3euro ontvangen!'
 Gebruik: '&3Gebruik &b/<Command> <Args>&3!'
 Regels: '&3Niet griefen %newline%&3Niet hacken %newline%&3Niet cheaten'
-NoSwear: '&f[&c&lMINETOPIA&f] &fSchelden is niet toegestaan'
-NoCaps: '&f[&c&lMINETOPIA&f] &fCaps uit'
+NoSwear: '&f[&3&lD&f] &cSchelden is niet toegestaan'
+NoCaps: '&f[&3&lD&f] &cCaps uit'
 NoSpam: '&cWe konden jouw chat bericht niet versturen!'
 OngelezenBerichten: '&3Er zijn &b<Berichten> &3ongelezen berichten op &b06-<Nummer>.'
 GeenOngelezenBerichten: '&3Er zijn &bgeen &3ongelezen berichten op &b06-<Nummer>.'
@@ -35,14 +35,14 @@ PlotInfo:
   Speler: '&3Eigenaar: &b<Eigenaren>%newline%&3Leden: &b<Leden>'
   Geen: '&bGeen'
   Komma: ', '
-  JeBentGeenEigenaar: '&cJe bent geen eigenaar van dit plot.'
-  AlleenStaffKan: '&cAlleen staff kan eigenaars van een plot aanpassen.'
+  JeBentGeenEigenaar: '&f[&3&lD&f] &cJe bent geen eigenaar van dit plot.'
+  AlleenStaffKan: '&f[&3&lD&f] &cAlleen staff kan eigenaars van een plot aanpassen.'
   Succesvol:
-    Owner: '&3Je hebt &b<Speler>&3 succesvol eigenaar gemaakt van dit plot.'
-    Member: '&3Je hebt &b<Speler>&3 succesvol member gemaakt van dit plot.'
+    Owner: '&3Je hebt &5<Speler>&3 succesvol eigenaar gemaakt van dit plot.'
+    Member: '&f[&3&lD&f] &3Je hebt &5<Speler>&3 succesvol member gemaakt van dit plot.'
   Removed:
-    Owner: '&3Je hebt &b<Speler>&3 succesvol verwijderd van dit plot.'
-    Member: '&3Je hebt &b<Speler>&3 succesvol verwijderd van dit plot.'
+    Owner: '&3Je hebt &5<Speler>&3 succesvol verwijderd van dit plot.'
+    Member: '&f[&3&lD&f] &3Je hebt &5<Speler>&3 succesvol verwijderd van dit plot.'
   Help:
     NoPerm: '&4Ongeldige argumenten! Probeer:%newline%&c/plot addmember <gebruiker>%newline%&c/plot
       removemember <gebruiker>'
@@ -238,7 +238,7 @@ PlotWand:
   Geselecteerd: '&3Positie <POS> geselecteerd.'
 Chat:
   NiemandInDeBuurt: '&cEr is niemand in de buurt.'
-  ScheldAlert: '&f[&c&lMINETOPIA&f] <TegenWereldKleur><Speler> <WereldKleur>heeft
+  ScheldAlert: '&f[&3&lD&f-&c&lSTAFF&f]] <TegenWereldKleur><Speler> <WereldKleur>heeft
     zojuist gescholden: <TegenWereldKleur><Bericht><WereldKleur>!'
 WereldCommand:
   Help: <WereldKleur>-=-=-=[<TegenWereldKleur>MinetopiaSDB<WereldKleur>]=-=-=-%newline%<WereldKleur>/Wereld
@@ -565,7 +565,7 @@ PlotCheck:
   PlotInfo: '&3Plotinfo van: &b<Plot>%newline%&3Locatie: <X> / <Y> / <Z>%newline%&3Owners:
     &b<Eigenaar>%newline%&3Members: &b<Members>'
 ChatKleur:
-  MenuTitle: '&3Kies jouw &bChatKleur&3!'
+  MenuTitle: '&3Kies jouw &5ChatKleur&3!'
   Help: <WereldKleur>-=-=[<TegenWereldKleur>MinetopiaSDB<WereldKleur>]=-=-%newline%<WereldKleur>/chatkleur
     addall <Speler> <TegenWereldKleur>- Geef een speler toegang tot alle chatkleuren.%newline%<WereldKleur>/chatkleur
     remove <Speler> <Kleur> <TegenWereldKleur>- Verwijder een chatkleur bij een speler.%newline%<WereldKleur>/chatkleur
@@ -856,14 +856,14 @@ LevelCheckCMD:
     &4Citizens &chier kopen: https://www.spigotmc.org/resources/citizens.13811/%newline%&cOf
     je kan &4Citizens &chier: http://minetopiasdb.nl/Citizens.html gratis (en legaal!)
     downloaden.'
-  VillagerName: '&6LevelCheck'
+  VillagerName: '&5LevelCheck'
   NPCSkinUUID: 11ccf559-f7c4-404c-8ba3-dcaf70c94b30
   Succesvol: '&3Deze &bNPC &3is succesvol gespawned.'
   Messages:
     Akkoord:
       Naam: '&aAkkoord'
-      Lore: '%newline%&2Klik hier om je level te upgraden naar &aLevel <Level>&2!%newline%&2Deze
-        upgrade is &a<Kosten>'
+      Lore: '%newline%&3Klik hier om je level te upgraden naar &5Level <Level>&2!%newline%&3Deze
+        upgrade is &6<Kosten>'
       Gratis: gratis
     Annuleer:
       Naam: '&cAnnuleren'
@@ -882,7 +882,7 @@ KledingCMD:
   Naam: '&3Type de &bnaam &3in de chat.'
   Lore: '&3Type de &blore &3in de chat.'
 ActionBar:
-  Format: '&5 Datum: &f<Datum>        &5Temp:&f <Temperatuur><Graden>C'
+  Format: '&5 Datum: &f<Datum>        &5Baan: <Prefix>'
 PlotsCMD:
   Verzamelen: '&3We zijn alle data aan het &bverzamelen&3.'
   InTotaal: '&b<Speler> &3is eigenaar op &b<EigenaarPlots> plots &3en member op &b<MemberPlots>
